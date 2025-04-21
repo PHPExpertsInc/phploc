@@ -88,7 +88,7 @@ final class Application
     {
         printf(
             'phploc %s by Sebastian Bergmann.' . PHP_EOL,
-            (new Version(self::VERSION, dirname(__DIR__)))->getVersion()
+            (new Version(self::VERSION, dirname(__DIR__)))->asString()
         );
     }
 
