@@ -45,6 +45,7 @@
         }
     },
     "require-dev": {
+        "phpexperts/dockerize": "^13.0",
         "phpunit/phpunit": "10.*"
     }
 }
